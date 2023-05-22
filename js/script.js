@@ -33,7 +33,7 @@ async function displayPopularMovies() {
           <div class="card-body">
             <h5 class="card-title">${movie.title}</h5>
             <p class="card-text">
-              <small class="text-muted">Release: ${movie.release_data}</small>
+              <small class="text-muted">Release: ${movie.release_date}</small>
             </p>
           </div>
         `;
